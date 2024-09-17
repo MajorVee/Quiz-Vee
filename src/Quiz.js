@@ -75,10 +75,22 @@ function Quiz() {
 
             ))}
           </div>
-          {selectedAnswer && (
-            <div style={{ marginTop: '10px' }}>
-              {isCorrect ? 'Correct! 🎉' : 'Sorry, that’s not right. 😢'}
-            </div>
+{selectedAnswer && (
+  <div 
+    style={{ 
+      marginTop: '10px', 
+      padding: '10px', 
+      borderRadius: '5px', 
+      backgroundColor: isCorrect ? 'lightgreen' : 'lightcoral', 
+      color: 'white', 
+      fontWeight: 'bold', 
+      textAlign: 'center', 
+      boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', 
+      transition: 'transform 0.2s ease' 
+    }}
+  >
+    {isCorrect ? 'Correct! 🎉' : 'Sorry, that’s not right. 😢'}
+  </div>
           )}
         </>
       )}
