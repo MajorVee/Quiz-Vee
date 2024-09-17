@@ -1,48 +1,48 @@
 const quizData = [
     {
-      question: "What was the first video game ever made?",
-      options: ["Pong", "Spacewar!", "Tetris", "Computer Space"],
-      answer: "Spacewar!"
+      question: "It provides a response to a request from a client computer over a network",
+      options: ["Data Center", "Server", "Virtual Machine", "Hypervisor"],
+      answer: "Server"
     },
     {
-      question: "Which company developed the first commercial antivirus software?",
-      options: ["Symantec", "McAfee", "Norton", "Kaspersky Lab"],
-      answer: "McAfee"
+      question: "A Software-based computer that runs on a physical computer called host",
+      options: ["Data Center", "Server", "Virtual Machine", "Hypervisor"],
+      answer: "Virtual Machine"
     },
     {
-      question: "Which animal is featured in the official PHP logo?",
-      options: ["Elephant", "Hippo", "Giraffe", "Lion"],
-      answer: "Elephant"
+      question: "A person accessing the physical resources of the host/computer",
+      options: ["Data Center", "Server", "Virtual Machine", "Hypervisor"],
+      answer: "Hypervisor"
     },
     {
-      question: "What does 'HTTP' stand for?",
-      options: ["HyperText Transfer Protocol", "Hyperlink Transfer Technology Protocol", "Hyperlink Text Transfer Protocol", "HyperText Technology Protocol"],
-      answer: "HyperText Transfer Protocol"
+      question: "SDLC: Answers the question 'How will you built what you want?'",
+      options: ["Plan", "Analyze", "Design", "Develop"],
+      answer: "Design"
     },
     {
-      question: "Which programming language is known as the backbone of the World Wide Web?",
-      options: ["Java", "C#", "Python", "HTML"],
-      answer: "HTML"
+      question: "SDLC: Answers the question 'What do you want from a solution?'",
+      options: ["Plan", "Analyze", "Design", "Develop"],
+      answer: "Analyze"
     },
     {
-      question: "What is the name of the world's first computer programmer?",
-      options: ["Charles Babbage", "Ada Lovelace", "Alan Turing", "Grace Hopper"],
-      answer: "Ada Lovelace"
+      question: "What type of Test that see whether the application is vulnerable from internal or external threats.",
+      options: ["Unit Test", "Integration Test", "Security Test", "Performance Test"],
+      answer: "Security Test"
     },
     {
-      question: "In what year was the iPhone first introduced?",
-      options: ["2005", "2007", "2009", "2011"],
-      answer: "2007"
+      question: "In what year AWS first introduced?",
+      options: ["2005", "2006", "2015", "2016"],
+      answer: "2006"
     },
     {
-      question: "What was Google's original name?",
-      options: ["BackRub", "Googol", "SearchMaster", "WebSearch"],
-      answer: "BackRub"
+      question: "What team role handles defines purpose of project, gathers requirements, organize requirements for developers.",
+      options: ["Project Manager", "Quality Assurance", "Analyst", "Software Developer"],
+      answer: "Analyst"
     },
     {
-      question: "Which of these companies was not founded in a garage?",
-      options: ["Amazon", "Google", "Apple", "Microsoft"],
-      answer: "Amazon"
+      question: "What service model manages the underlying hardware and operating system?",
+      options: ["IAAS", "PAAS", "SAAS", "Cloud"],
+      answer: "PAAS"
     },
     {
       question: "What does 'GPU' stand for?",
@@ -50,14 +50,14 @@ const quizData = [
       answer: "Graphics Processing Unit"
     },  
     {
-      question: "What is the capital of France?",
-      options: ["New York", "London", "Paris", "Dublin"],
-      answer: "Paris"
+      question: "What is the capital of Philippines?",
+      options: ["New York", "London", "Paris", "Manila"],
+      answer: "Manila"
     },
     {
-      question: "Who painted the Mona Lisa?",
-      options: ["Vincent Van Gogh", "Leonardo da Vinci", "Pablo Picasso", "Claude Monet"],
-      answer: "Leonardo da Vinci"
+      question: "Its a computing service that deploys and manages, scales web apps",
+      options: ["Lambda", "EBS", "LightSail", "Cloudpost"],
+      answer: "EBS"
     },
     {
       question: "What is the largest planet in our solar system?",
@@ -67,4 +67,3 @@ const quizData = [
   ];
   
   export default quizData;
-  
