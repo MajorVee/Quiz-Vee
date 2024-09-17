@@ -1,0 +1,58 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-quizvee-dev-63ce7-authRole",
+      "UnauthRoleArn": "arn:aws:iam::762233767402:role/amplify-quizvee-dev-63ce7-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::762233767402:role/amplify-quizvee-dev-63ce7-authRole",
+      "Region": "ap-southeast-2",
+      "DeploymentBucketName": "amplify-quizvee-dev-63ce7-deployment",
+      "UnauthRoleName": "amplify-quizvee-dev-63ce7-unauthRole",
+      "StackName": "amplify-quizvee-dev-63ce7",
+      "StackId": "arn:aws:cloudformation:ap-southeast-2:762233767402:stack/amplify-quizvee-dev-63ce7/b65f2070-74a8-11ef-90f1-02f687f5657d",
+      "AmplifyAppId": "d41s4spql5yur"
+    }
+  },
+  "auth": {
+    "quizvee8f9a5310": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-quizvee-dev-63ce7-deployment/amplify-cfn-templates/auth/quizvee8f9a5310-cloudformation-template.json",
+        "logicalId": "authquizvee8f9a5310"
+      },
+      "lastPushTimeStamp": "2024-09-17T03:58:27.165Z",
+      "output": {
+        "UserPoolId": "ap-southeast-2_UcKqbGnrV",
+        "AppClientIDWeb": "e3tr7ougj4eorhec1i8rku08n",
+        "AppClientID": "6vrv8eefvs2jsqae5fm26nulak",
+        "IdentityPoolId": "ap-southeast-2:9a3ccaf5-a548-4f03-baf6-c6f53c1ed74f",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-southeast-2:762233767402:userpool/ap-southeast-2_UcKqbGnrV",
+        "IdentityPoolName": "quizvee8f9a5310_identitypool_8f9a5310__dev",
+        "UserPoolName": "quizvee8f9a5310_userpool_8f9a5310"
+      },
+      "lastPushDirHash": "5rqyrvfaVczLPKTZlSxU75nAlGk="
+    }
+  }
+}
