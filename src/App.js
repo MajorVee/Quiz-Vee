@@ -32,16 +32,26 @@ function App() {
               <Quiz/>
               {/* Sign Out Button */}
               <button 
-                onClick={signOut} 
-                style={{ 
-                  margin: '20px', 
-                  fontSize: '0.8rem', 
-                  padding: '5px 10px', 
-                  marginTop: '20px'
-                }}
-              >
-                Sign Out
-              </button>
+  onClick={signOut} 
+  style={{ 
+    margin: '20px', 
+    fontSize: '0.8rem', 
+    padding: '10px 20px', 
+    marginTop: '20px', 
+    backgroundColor: '#4CAF50', /* Green background */
+    color: 'white', /* White text */
+    border: 'none', /* Remove border */
+    borderRadius: '5px', /* Rounded corners */
+    cursor: 'pointer', /* Pointer cursor on hover */
+    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', /* Add shadow */
+    transition: 'background-color 0.3s ease' /* Smooth transition */
+  }}
+  onMouseOver={(e) => e.target.style.backgroundColor = '#45a049'} /* Darker green on hover */
+  onMouseOut={(e) => e.target.style.backgroundColor = '#4CAF50'} /* Original green on mouse out */
+>
+  Sign Out
+</button>
+
             </header>
           </main>
         )}
