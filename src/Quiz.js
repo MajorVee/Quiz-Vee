@@ -48,12 +48,31 @@ function Quiz() {
           <div className='answer-section'>
             {quizData[currentQuestion].options.map((option) => (
               <button 
-                onClick={() => handleAnswerOptionClick(option)} 
-                key={option}
-                style={{ backgroundColor: selectedAnswer === option ? (isCorrect ? 'lightgreen' : 'pink') : '' }}
-              >
-                {option}
-              </button>
+  onClick={() => handleAnswerOptionClick(option)} 
+  key={option}
+  style={{ 
+    backgroundColor: selectedAnswer === option ? (isCorrect ? 'lightgreen' : 'pink') : '#f0f0f0', /* Default background color */
+    color: selectedAnswer === option ? 'black' : '#333', /* Text color */
+    padding: '10px 20px', /* Padding for better spacing */
+    margin: '10px', /* Margin for spacing between buttons */
+    border: 'none', /* Remove border */
+    borderRadius: '5px', /* Rounded corners */
+    cursor: 'pointer', /* Pointer cursor on hover */
+    boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)', /* Add shadow */
+    transition: 'background-color 0.3s ease, transform 0.2s ease' /* Smooth transition */
+  }}
+  onMouseOver={(e) => {
+    e.target.style.backgroundColor = selectedAnswer === option ? (isCorrect ? 'lightgreen' : 'pink') : '#e0e0e0'; /* Hover background color */
+    e.target.style.transform = 'scale(1.05)'; /* Slightly enlarge on hover */
+  }}
+  onMouseOut={(e) => {
+    e.target.style.backgroundColor = selectedAnswer === option ? (isCorrect ? 'lightgreen' : 'pink') : '#f0f0f0'; /* Original background color */
+    e.target.style.transform = 'scale(1)'; /* Reset size */
+  }}
+>
+  {option}
+</button>
+
             ))}
           </div>
           {selectedAnswer && (
