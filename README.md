@@ -2,23 +2,23 @@ App using AWS Amplify and Cognito (with CI/CD)
 -
 Here are the terminal commands
 
-```npm install -g @aws-amplify/cli
+```npm install -g @aws-amplify/cli```
 
-amplify configure
+```amplify configure```
 
-npx create-react-app <name of your app>
+```npx create-react-app <name of your app>```
 
-cd <name of your app>
+```cd <name of your app>```
 
-amplify init
+```amplify init```
 
-amplify add auth
+amplify add auth```
 
-amplify push
+amplify push```
 
-npm install aws-amplify @aws-amplify/ui-react
+npm install aws-amplify @aws-amplify/ui-react```
 
-npm start
+npm start```
 
 --
 
