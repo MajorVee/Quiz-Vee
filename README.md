@@ -1,6 +1,6 @@
-#Quiz App
-
-Here are the terminal commands in order of appearance of the video.
+App using AWS Amplify and Cognito (with CI/CD)
+-
+Here are the terminal commands
 
 npm install -g @aws-amplify/cli
 
@@ -19,3 +19,8 @@ amplify push
 npm install aws-amplify @aws-amplify/ui-react
 
 npm start
+
+--
+App.js: The React application that's configured to use Cognito for authentication
+Quiz.js: The Quiz component
+quizData.js: The hard-coded questions and answers for the quiz
