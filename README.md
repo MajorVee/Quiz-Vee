@@ -2,7 +2,7 @@ App using AWS Amplify and Cognito (with CI/CD)
 -
 Here are the terminal commands
 
-///npm install -g @aws-amplify/cli
+```npm install -g @aws-amplify/cli
 
 amplify configure
 
