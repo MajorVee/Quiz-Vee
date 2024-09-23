@@ -22,5 +22,7 @@ npm start
 
 --
 App.js: The React application that's configured to use Cognito for authentication
+
 Quiz.js: The Quiz component
+
 quizData.js: The hard-coded questions and answers for the quiz
