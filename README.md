@@ -1,3 +1,21 @@
-# Getting Started with Create React App
+#Quiz App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here are the terminal commands in order of appearance of the video.
+
+npm install -g @aws-amplify/cli
+
+amplify configure
+
+npx create-react-app <name of your app>
+
+cd <name of your app>
+
+amplify init
+
+amplify add auth
+
+amplify push
+
+npm install aws-amplify @aws-amplify/ui-react
+
+npm start
