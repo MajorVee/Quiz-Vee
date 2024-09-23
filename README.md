@@ -12,13 +12,13 @@ Here are the terminal commands
 
 ```amplify init```
 
-amplify add auth```
+```amplify add auth```
 
-amplify push```
+```amplify push```
 
-npm install aws-amplify @aws-amplify/ui-react```
+```npm install aws-amplify @aws-amplify/ui-react```
 
-npm start```
+```npm start```
 
 --
 
